@@ -1,0 +1,65 @@
+body *{
+margin: 0  ;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+margin: 1em;
+}
+.container{
+    background-color: pink;
+    padding: 1em;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h1{
+    font-size: 3em;
+    margin-right: 2em;
+    color: palevioletred;
+
+}
+header figure{
+    width: 100px;
+
+}
+img{
+    width: 100%;
+
+}
+section{
+    display: flex;
+}
+section article{
+    flex-basis: 22%;
+    padding: 1em;
+    background-color:pink;
+    border-radius: 1em;
+}
+h2{
+    color: palevioletred;
+    text-align: center;
+    padding: 1em 0;
+
+}
+article figure{
+    margin: 1em 0;
+    color: palevioletred;
+}
+article p{
+    color: palevioletred;
+}
+footer{
+    background-color:pink;
+    padding: 1em;
+    margin-top: 2em;
+    border-radius: 1em;
+
+}
+footer p{
+    text-align: center;
+    color: palevioletred;
+}
